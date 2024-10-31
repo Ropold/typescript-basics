@@ -61,6 +61,6 @@ const devideByFor = list.map(num => num % 4);
 console.log(devideByFor)
 
 //bonus 5.
-const sum3 = list.reduce((accumulator, value) => accumulator + value, 0);
+const sum3 = list.reduce((acc, value) => acc + value, 0);
 console.log(sum3);
 
